@@ -1,3 +1,5 @@
+package FirstLecture;
+
 import java.util.Scanner;
 
 public class YardGreening {
@@ -8,7 +10,6 @@ public class YardGreening {
         double discount = priceWithoutDiscount * 18 / 100;
         double finalPrice = priceWithoutDiscount - discount;
         System.out.println("The final price is: " + finalPrice + " lv.");
-        System.out.println("The discount is: " + discount + "lv.");
-
+        System.out.println("The discount is: " + discount + " lv.");
     }
 }
